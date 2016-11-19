@@ -17,13 +17,13 @@ function main()
     document.addEventListener("keydown", function(event) {
        event.preventDefault();
 	   if (event.key == "w")
-		   tankSpeed = .5;
+		   tankSpeed = 5;
 	   if (event.key == "s")
-		   tankSpeed = -.5;
+		   tankSpeed = -5;
 	   if (event.key == "d")
-		   tankRotationSpeed = .02;
+		   tankRotationSpeed = .2;
 	   if (event.key == "a")
-		   tankRotationSpeed = -.02;
+		   tankRotationSpeed = -.2;
 	});
    
     document.addEventListener("keyup", function(event) {
