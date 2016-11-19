@@ -21,9 +21,9 @@ function main()
 	   if (event.key == "s")
 		   tankSpeed = -.5;
 	   if (event.key == "d")
-		   tankRotationSpeed = .03;
+		   tankRotationSpeed = .02;
 	   if (event.key == "a")
-		   tankRotationSpeed = -.03;
+		   tankRotationSpeed = -.02;
 	});
    
     document.addEventListener("keyup", function(event) {
